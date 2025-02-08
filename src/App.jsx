@@ -1,11 +1,11 @@
 import React from 'react'
-import Service from './Service/Service'
-
+import Cars from './Cars/Cars'
 const App = () => {
   return (
-    <div>
-<Service></Service>
+    <div className='w-[200px] bg-green-500'>
 
+  <Cars></Cars>
+  
     </div>
   )
 }
