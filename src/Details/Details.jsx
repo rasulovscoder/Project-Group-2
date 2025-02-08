@@ -29,8 +29,10 @@ return (
                         <h6>{count}</h6>
                         <button onClick={increment} className=' w-[32px] h-[32px] rounded-[50%] border-[1px] border-gray-950  flex justify-center items-center duration-200 hover:bg-gray-200 mt-[-5px] text-[30px]'>+</button>                        <button className='bg-[#FD3B3B] w-[143px] h-[40px] items-center rounded-[32px] text-[#FFFFFF] text-[16px] duration-200 font-[700] hover:bg-[#ce4f4f] shadow-xl ' >Book Now</button>
                     </div>
+
                 </div>
             </div>
+            <div></div>
         </div>
     </div>
 
