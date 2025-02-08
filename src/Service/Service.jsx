@@ -18,7 +18,7 @@ const Service = () => {
 
 <div className='w-[1440px] h-[780px] bg-white mt-28'>
   <div className='flex flex-wrap'>
-    <button className='btn btn-error w-[70px] h-[70px] rounded-full text-white text-[20px] ml-[40px]'>--></button>
+    <button className='btn btn-error w-[70px] h-[70px] rounded-full text-white text-[20px] ml-[40px]'>--</button>
 <h1 className='text-[30px] text-black font-bold mt-[8px] ml-[15px]'>Pick the car</h1>
   </div>
 
