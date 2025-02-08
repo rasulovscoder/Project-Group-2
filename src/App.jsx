@@ -4,7 +4,7 @@ import Details from './Details/Details'
 
 const App = () => {
   return (
-    <div>
+    <div >
 <Service></Service>
 <Details></Details>
 
