@@ -3,7 +3,7 @@ import Service from './Service/Service'
 
 const App = () => {
   return (
-    <div>
+    <div >
 <Service></Service>
 
     </div>
