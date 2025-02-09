@@ -6,11 +6,9 @@ import Home from './Home/Home'
 import Faq from './FAQ\'s/Faq'
 
 
-
 const App = () => {
   return (
     <div >
-<<<<<<< Updated upstream
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -19,12 +17,6 @@ const App = () => {
           <Route path='/faq' element={<Faq />} />
         </Routes>
       </BrowserRouter>
-=======
-<Service></Service>
-<Details></Details>
-<Cars></Cars>
-
->>>>>>> Stashed changes
     </div>
   )
 }
