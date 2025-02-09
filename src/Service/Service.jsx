@@ -1,6 +1,6 @@
 import React from 'react'
-import rasm1 from './images/1.png'
-import rasm2 from './images/2.png'
+import simg1 from './images/simg1.png'
+import simg2 from './images/simg2.png'
 
 const Service = () => {
   return (
@@ -14,7 +14,7 @@ const Service = () => {
       <h1 className='text-[20px] text-black '>Home/About us</h1>
       <h1 className='text-[40px] text-black font-bold'>Who We are</h1>
     </div>
-  <img src={rasm1} className='w-[1440px] h-[490px] bg-white' />
+  <img src={simg1} className='w-[1440px] h-[490px] bg-white' />
 
 <div className='w-[1440px] h-[780px] bg-white mt-28'>
   <div className='flex flex-wrap'>
@@ -23,7 +23,7 @@ const Service = () => {
   </div>
 
 <div className='flex flex-wrap'>
-<img src={rasm2} className="w-[900px] h-[600px] mt-[80px] p-10" />
+<img src={simg2} className="w-[900px] h-[600px] mt-[80px] p-10" />
 <div className='w-[444px] h-[713px] p-10 mt-[80px]'>
   <h1 className='text-[20px] text-black font-bold'>Our Journey</h1>
   <h1 className='text-[56px] text-black font-bold'>Pioneering Premium Car Rentals</h1>
