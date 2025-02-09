@@ -17,7 +17,9 @@ import foot5 from './images/foot5.png'
 import foot6 from './images/foot6.png'
 import foot7 from './images/foot7.png'
 import foot8 from './images/foot8.png'
-
+import ccar from './images/ccar.jpg'
+import menu from './images/menu.png'
+ 
 const Service = () => {
   return (
     <div className='w-[1440px] h-[4644px] bg-white m-auto'>
@@ -155,7 +157,6 @@ const Service = () => {
 
 
 
-
 <div className='w-[1440px] h-[490px] mt-[250px] flex flex-wrap'>
 <div className='w-[614px] h-[490px] text-center  '>
 <h1 className='text-[24px] text-black font-bold mt-[100px]'>ACHIEVEMENTS</h1>
@@ -217,6 +218,30 @@ const Service = () => {
 </div>
 
 
+<div className='w-[1440px] h-[712px] mt-[120px]'>
+  <div className='w-[1240px] h-[399px] rounded-3xl m-auto flex flex-wrap bg-black'>
+<div className='w-[900px] rounded-3xl h-[399px] bg-black'>
+<h1 className='text-[50px] mt-[30px] text-center text-white font-bold'>Reserve Your Dream</h1>
+<h1 className='text-[50px] text-center text-white font-bold'>Car Today and Feel Best</h1>
+<h1 className='text-[50px] text-center text-white font-bold'>Best Experience Travel</h1>
+<button className='btn ml-44 mt-[40px] btn-error'>Let's drive with us</button>
+</div>
+<img src={ccar} className='w-[340px] h-[399px] rounded-3xl'/>
+  </div>
+
+
+<div className='flex flex-wrap gap-[40px] m-auto'>
+<div className='w-[552px] h-[219px] mt-[70px] shadow-2xl ml-[100px]'>
+<h1 className='text-[50px] text-center text-black font-bold'>Don’t Miss a Thing</h1>
+<p className='text-[18px] text-center text-black font-bold'>Subscribe to our newsletter for exclusive deals and updates.</p>
+<input className='mt-[60px] ml-[30px] input w-[500px] input-bordered' type="text" placeholder='Enter your email?                                                                        -->'/>
+</div>
+<div className='w-[552px] h-[219px] mt-[70px] ml-24'>
+<img src={menu} className="" />
+</div>
+</div>
+
+</div>
 
 
 
@@ -225,10 +250,7 @@ const Service = () => {
 
 
 
-
-
-
-    </div>
+</div>
   )
 }
 
