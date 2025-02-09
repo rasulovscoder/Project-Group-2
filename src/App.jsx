@@ -4,6 +4,7 @@ import Details from './Details/Details'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import Home from './Home/Home'
 import Faq from './FAQ\'s/Faq'
+import Mashina from './Mashina/Mashina'
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
           <Route path='/service' element={<Service />} />
           <Route path='/details' element={<Details />} />
           <Route path='/faq' element={<Faq />} />
+          <Route path='/cars' element={<Mashina />} />
         </Routes>
       </BrowserRouter>
     </div>
