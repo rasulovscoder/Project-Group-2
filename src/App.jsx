@@ -6,6 +6,7 @@ import Home from './Home/Home'
 import Faq from './FAQ\'s/Faq'
 import Mashina from './Mashina/Mashina'
 
+import About from './about/About'
 
 const App = () => {
   return (
