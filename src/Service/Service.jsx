@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< Updated upstream
 import simg1 from './images/simg1.png'
 import simg2 from './images/simg2.png'
 import sicon1 from './images/sicon1.png'
@@ -20,6 +21,11 @@ import foot8 from './images/foot8.png'
 import ccar from './images/ccar.jpg'
 import menu from './images/menu.png'
  
+=======
+import rasm1 from './images/2.png'
+import rasm2 from './images/2.png'
+
+>>>>>>> Stashed changes
 const Service = () => {
   return (
     <div className='w-[1440px] h-[4644px] bg-white m-auto'>
