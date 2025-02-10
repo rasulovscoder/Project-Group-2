@@ -24,7 +24,7 @@ const Details = () => {
     return (
         <div>
             <div className='w-[1440px] h-[810px] '>
-                <div className=' w-full h-[317px] bg-center bg-no-repeat bg-cover bg-[url(./img/rasm1.jpg)]'>
+                <div className=' w-full h-[317px] bg-center bg-no-repeat bg-cover bg-[url(./img/rasm1.jpg)] bg-red-400'>
 
                 </div>
                 <div className='flex flex-row'>
@@ -102,7 +102,7 @@ const Details = () => {
                             <div className='w-[480px] h-[104px] flex flex-col justify-between bg-[#F8F8F8] py-[10px] px-[20px] '>
                                 <h1 className='text-[20px] font-[600]'>Infotainment System</h1>
                                 <p className='text-[18px] font-[500] text-[#BABABA]'>Stay connected with a modern and flexible multimedia system.</p>
-                            </div>     
+                            </div>
                             <div className='w-[480px] h-[104px] flex flex-col justify-between bg-[#F8F8F8] py-[10px] px-[20px] '>
                                 <h1 className='text-[20px] font-[600]'>Leather Interior</h1>
                                 <p className='text-[18px] font-[500] text-[#BABABA]'>Experience premium comfort with leather-trimmed seats and design.</p>
@@ -116,7 +116,7 @@ const Details = () => {
                             <div className='w-[480px] h-[104px] flex flex-col justify-between bg-[#F8F8F8] py-[10px] px-[20px] '>
                                 <h1 className='text-[20px] font-[600]'>Advanced Safety</h1>
                                 <p className='text-[18px] font-[500] text-[#BABABA]'>Benefit from modern safety features, including airbags and stability control.</p>
-                            </div>     
+                            </div>
                             <div className='w-[480px] h-[104px] flex flex-col justify-between bg-[#F8F8F8] py-[10px] px-[20px] '>
                                 <h1 className='text-[20px] font-[600]'>Iconic Design</h1>
                                 <p className='text-[18px] font-[500] text-[#BABABA]'>Turn heads with the timeless, bold styling of the Ford Mustang.</p>
@@ -124,6 +124,19 @@ const Details = () => {
                         </div>
                     </div>
 
+                </div>
+                <div className='w-[1440px] h-[393px] px-[50px] mt-[30px]'>
+                    <div className='w-[1340px] h-[58px] flex flex-row items-center justify-between'>
+                        <h1 className='text-[48px] font-[500] '>You may also like</h1>
+                        <div className='w-[124px] h-[50px] flex justify-between items-center'>
+                            <div className='flex justify-center items-center bg-gray-400 w-[50px] h-[50px] rounded-[50%] border-[2px] border-gray-500'>
+                                <i className="fa-solid fa-arrow-left text-[20px] text-slate-50"></i>
+                            </div>
+                            <div className='flex justify-center items-center bg-[#FD3B3B] w-[50px] h-[50px] rounded-[50%] border-[2px] border-gray-500'>
+                                <i className="fa-solid fa-arrow-right text-[20px] text-[#ffffff]"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
